@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/React-orderfood/static/css/main.19f94367.css",
-    "main.js": "/React-orderfood/static/js/main.18aedb8e.js",
-    "static/media/pizza.jpg": "/React-orderfood/static/media/pizza.f9682ce6cc30bedea0c6.jpg",
-    "index.html": "/React-orderfood/index.html",
-    "main.19f94367.css.map": "/React-orderfood/static/css/main.19f94367.css.map",
-    "main.18aedb8e.js.map": "/React-orderfood/static/js/main.18aedb8e.js.map"
+    "main.css": "/static/css/main.19f94367.css",
+    "main.js": "/static/js/main.e0bd7753.js",
+    "static/media/pizza.jpg": "/static/media/pizza.f9682ce6cc30bedea0c6.jpg",
+    "index.html": "/index.html",
+    "main.19f94367.css.map": "/static/css/main.19f94367.css.map",
+    "main.e0bd7753.js.map": "/static/js/main.e0bd7753.js.map"
   },
   "entrypoints": [
     "static/css/main.19f94367.css",
-    "static/js/main.18aedb8e.js"
+    "static/js/main.e0bd7753.js"
   ]
 }
