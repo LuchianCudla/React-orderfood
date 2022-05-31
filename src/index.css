@@ -1,0 +1,229 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+
+  --callToAction: #146526;
+  --greenVariant1: #a5e9b6;
+  --greenVariant2: hsla(136, 44%, 83%, 0.68);
+  --greenVariant3: rgba(255, 255, 255, 0.473);
+  --darkGrey: #4c4a4a;
+}
+body {
+  background-color: hsla(136, 44%, 83%, 0.504);
+}
+
+button {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  border: none;
+  border-radius: 10px;
+  color: white;
+  background-color: var(--callToAction);
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #37a64f;
+}
+
+img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+input[type="email"],
+input[type="password"],
+input[type="text"] {
+  border: none;
+  outline: none;
+  font-size: 1rem;
+  width: 100%;
+  background-color: transparent;
+  color: var(--darkGrey);
+}
+
+.form-container {
+  width: 100%;
+  height: 88vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
+}
+
+.form-container p {
+  font-weight: 300;
+}
+
+form {
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  padding: 2rem 1.2rem;
+  background-color: var(--greenVariant2);
+  border-radius: 10px;
+  box-shadow: 0px 2px 9px 1px rgba(0, 0, 0, 0.722);
+}
+
+form button {
+  padding: 0.5rem 1.5rem;
+  font-size: 1.1rem;
+}
+
+.input-wrapper {
+  display: flex;
+  gap: 1rem;
+  border-radius: 10px;
+  padding: 0.3rem;
+  background-color: var(--greenVariant3);
+}
+
+/*****Text styles******/
+
+a {
+  text-decoration: none;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  color: var(--callToAction);
+}
+
+h1 {
+  font-size: 2.5rem;
+}
+h2 {
+  font-size: 2.2rem;
+}
+
+h3 {
+  font-size: 1.8rem;
+}
+
+h4 {
+  font-size: 1.2rem;
+}
+
+h5 {
+  text-align: center;
+}
+
+.icon {
+  font-size: 1.6rem;
+}
+
+.icon-medium {
+  font-size: 1.4rem;
+}
+.icon-small {
+  font-size: 1.3rem;
+  color: gold;
+}
+
+.card {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  border-radius: 10px;
+  box-shadow: 0px 2px 9px 1px rgba(0, 0, 0, 0.722);
+  background-color: rgba(245, 245, 245, 0.407);
+  cursor: pointer;
+}
+
+.card-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  padding: 0.8rem 0.5rem;
+}
+
+.cart-item {
+  display: flex;
+  border-radius: 10px;
+  padding: 0.5rem;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--greenVariant3);
+  cursor: pointer;
+}
+
+/*******************Media queries********************************/
+
+@media screen and (max-width: 600px) {
+  .icon-medium {
+    font-size: 1.2rem;
+  }
+
+  .form-container {
+    padding: 0 0.9rem;
+    gap: 2rem;
+  }
+
+  form {
+    width: 100%;
+    padding: 1.8rem 0.5rem;
+  }
+
+  form button {
+    font-size: 0.9rem;
+    padding: 0.5rem 2rem;
+    margin: 0 auto;
+  }
+
+  input[type="email"],
+  input[type="password"],
+  input[type="text"],
+  .form-container p,
+  a {
+    font-size: 0.9rem;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  .cart-item {
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  .form-container {
+    padding: 0 0.9rem;
+    gap: 2rem;
+  }
+
+  .form-container h1 {
+    font-size: 1.8rem;
+  }
+
+  form {
+    width: 100%;
+    padding: 1.8rem 0.5rem;
+  }
+
+  form button {
+    font-size: 0.9rem;
+    padding: 0.5rem 2rem;
+    margin: 0 auto;
+  }
+
+  input[type="email"],
+  input[type="password"],
+  input[type="text"],
+  .form-container p,
+  a {
+    font-size: 0.8rem;
+  }
+
+  span {
+    font-size: 0.9rem;
+  }
+
+  .star-container h4 {
+    font-size: 1rem;
+  }
+}

@@ -1,0 +1,31 @@
+.filter-container {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  margin: 2rem 0.9rem;
+}
+
+.food-types-container {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+.food-types-container button {
+  padding: 0.5rem 1.5rem;
+}
+
+.active {
+  background-color: blue;
+}
+
+/***********************Media queries*******************************/
+@media screen and (max-width: 420px) {
+  .food-types-container {
+    gap: 0.6rem;
+  }
+
+  .food-types-container button {
+    padding: 0.5rem 1rem;
+    font-size: 0.8rem;
+  }
+}

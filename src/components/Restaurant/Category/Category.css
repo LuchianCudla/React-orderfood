@@ -1,0 +1,37 @@
+.card button {
+  padding: 0.5rem 2rem;
+  font-size: 1rem;
+  color: white;
+  border-radius: 10px;
+  text-transform: uppercase;
+  font-weight: 500;
+  margin: 0 auto;
+}
+.card button:hover {
+  background-color: #37a64f;
+}
+
+.cat-img {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  max-height: 40%;
+}
+
+.vendor-name {
+  text-align: center;
+  font-size: 1.1rem;
+  font-weight: bold;
+  color: black;
+}
+
+.vendor-desc {
+  font-size: 0.9rem;
+  color: var(--darkGrey);
+}
+
+.vendor-price {
+  text-align: center;
+  font-size: 1rem;
+  color: black;
+  font-weight: 500;
+}

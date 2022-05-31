@@ -1,0 +1,33 @@
+.no_criteria_content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+  margin-top: 6rem;
+}
+.no_criteria_content p {
+  color: var(--darkGrey);
+}
+
+.restaurants-section {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 3rem 2rem;
+  padding: 0.9rem;
+  margin: 0 auto;
+}
+
+/*********************Media queries*******************************/
+
+@media screen and (max-width: 600px) {
+  .restaurants-section {
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem 0.7rem;
+  }
+
+  @media screen and (max-width: 420px) {
+    .restaurants-section {
+      grid-template-columns: 1fr;
+    }
+  }
+}

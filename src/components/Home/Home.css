@@ -1,0 +1,166 @@
+/****************************Hero styles*****************************/
+
+.hero {
+  height: 88vh;
+}
+
+.hero img {
+  position: relative;
+}
+
+.modal {
+  position: absolute;
+  height: 88vh;
+  background-color: rgba(0, 0, 0, 0.6);
+  top: 12vh;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  gap: 2.5rem;
+}
+
+.modal h1 {
+  font-size: 4rem;
+  color: white;
+}
+
+.modal p {
+  font-size: 1.4rem;
+  line-height: 1.5;
+  color: white;
+  max-width: 60%;
+}
+
+.modal button {
+  padding: 1rem 3rem;
+  font-size: 1.3rem;
+  border-radius: 10px;
+  color: white;
+}
+
+/********************************************************************/
+
+/****************************Infostyles*****************************/
+
+.info-section h3 {
+  text-align: center;
+  color: black;
+  margin: 2rem 0;
+}
+
+.info-wrapper {
+  display: flex;
+  background-color: var(--greenVariant1);
+  gap: 7rem;
+  justify-content: center;
+  padding: 1rem;
+}
+
+.info-wrapper div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+
+.info-wrapper div h4 {
+  text-align: center;
+  font-weight: 600;
+}
+
+.icon-big {
+  /* color: var(--callToAction); */
+  color: var(--callToAction);
+  font-size: 3.5rem;
+}
+
+/********************************************************************/
+
+/************Media queries*******************************/
+
+@media (max-width: 900px) {
+  .modal h1 {
+    font-size: 3rem;
+  }
+  .modal p {
+    font-size: 1.3rem;
+  }
+
+  .modal button {
+    padding: 0.8rem 2.5rem;
+  }
+
+  .icon-big {
+    font-size: 2.5rem;
+  }
+
+  .info-wrapper div h4 {
+    font-size: 1.15rem;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .modal {
+    gap: 1.5rem;
+  }
+  .modal h1 {
+    font-size: 2.2rem;
+  }
+
+  .modal p {
+    font-size: 1.2rem;
+    max-width: 90%;
+    line-height: 1.4;
+    margin: 0 auto;
+  }
+
+  .modal button {
+    padding: 0.6rem 1.8rem;
+  }
+
+  .icon-big {
+    font-size: 2.5rem;
+  }
+
+  .info-wrapper {
+    gap: 2.5rem;
+  }
+
+  .info-wrapper div h4 {
+    font-size: 1.1rem;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  .modal {
+    gap: 1.5rem;
+  }
+  .modal h1 {
+    font-size: 1.9rem;
+  }
+
+  .modal p {
+    font-size: 1.1rem;
+    max-width: 90%;
+    line-height: 1.4;
+    margin: 0 auto;
+  }
+
+  .modal button {
+    padding: 0.6rem 1.8rem;
+  }
+
+  .icon-big {
+    font-size: 2.2rem;
+  }
+
+  .info-wrapper {
+    gap: 1.5rem;
+  }
+
+  .info-wrapper div h4 {
+    font-size: 0.9rem;
+  }
+}
