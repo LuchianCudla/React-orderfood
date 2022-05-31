@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/React-orderfood/static/css/main.19f94367.css",
-    "main.js": "/React-orderfood/static/js/main.9e00e1c7.js",
+    "main.js": "/React-orderfood/static/js/main.859fb17c.js",
     "static/media/pizza.jpg": "/React-orderfood/static/media/pizza.f9682ce6cc30bedea0c6.jpg",
     "index.html": "/React-orderfood/index.html",
     "main.19f94367.css.map": "/React-orderfood/static/css/main.19f94367.css.map",
-    "main.9e00e1c7.js.map": "/React-orderfood/static/js/main.9e00e1c7.js.map"
+    "main.859fb17c.js.map": "/React-orderfood/static/js/main.859fb17c.js.map"
   },
   "entrypoints": [
     "static/css/main.19f94367.css",
-    "static/js/main.9e00e1c7.js"
+    "static/js/main.859fb17c.js"
   ]
 }
